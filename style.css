@@ -71,11 +71,7 @@ body {
     color: #F9FAF8;   
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .content > .info {
     display: flex;
@@ -125,7 +121,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0px 75px 0px 75px;
     margin: 40px 0px 40px 0px;
     height: 200px;
     background-color: #E5E7EB;
@@ -163,22 +158,29 @@ button {
     width: 100px;
 }
 
-.content > .register {
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register > .container {
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
     background: #3882F6;
+    width: 500px;
     border-radius: 8px;
     gap: 25px;
 }
 
-.register >.left {
+.register > .container >.left {
     color: #F9FAF8;
 }
 
-.register >.left > .title {
+.register > .container > .left > .title {
     font-weight: bolder;
     font-size: 24px;
 }
